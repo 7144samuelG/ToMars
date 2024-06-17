@@ -1,0 +1,161 @@
+a{
+    text-decoration: none;
+    font-family: cursive;
+}
+body{
+    max-width: 1300px;
+    margin-top: 20px;
+    margin-inline: auto;
+    background-image: url(./files/d1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+.nav_right{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.hed{
+    font-size: 2rem;
+    color: red;
+}
+.main{
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.main_img{
+    height: 400px;
+}
+.main_title{
+  width: 40%;
+  font-family: cursive;
+  margin-top: 50px;
+}
+.about_title{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    color:blue;
+    font-family: cursive;
+}
+.about_des p{
+width: 50%;
+margin-inline: left;
+letter-spacing: 3px;
+line-height: 30px;
+font-family: cursive;
+font-size: 2rem;
+color: black;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+.contact a{
+    border:1px solid red;
+    border-radius: 10px;
+    font-size: 50px;
+    padding-inline: 10px;
+    color: white;
+}
+.contact_icon{
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+}
+.buy h1{
+    width: 200px;
+    margin-inline: auto;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.how_title{
+    text-align: center;
+    margin-top: 40px;
+    color: red;
+    font-family: cursive;
+}
+.how{
+    display: flex;
+
+}
+.how img{
+    width: 50%;
+}
+.how_1{
+    margin-top: 100px;
+    width: 50%;
+    margin-inline: auto;
+}
+.how p{
+    text-align: center;
+    color:white;
+    font-size: 2.2rem;
+    font-family: cursive;
+    margin-inline: auto;
+    
+}
+.nomic_title{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+.nomic{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    color: green;
+    font-family: cursive;
+}
+.nomic h3{
+    color:blue;
+}
+.air{
+    text-align: center;
+    font-family: cursive;
+}
+.air h1{
+    text-decoration: underline;
+    color: red;
+}
+.air p{
+    font-size: 2rem;
+    color: blue;
+}
+footer h1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    color:blue;
+    text-align: center;
+    font-family: cursive;
+    margin-block: 20px;
+    text-decoration: underline;
+}
