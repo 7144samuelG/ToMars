@@ -47,6 +47,19 @@ body{
     color:blue;
     font-family: cursive;
 }
+.memes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:10px;
+    margin-bottom: 20px;
+    
+}
+.memes img{
+    width:300px;
+    height: 300px;
+    column-gap:10px;
+}
 .about_des p{
 width: 50%;
 margin-inline: left;
@@ -104,7 +117,7 @@ color: black;
 }
 .how p{
     text-align: center;
-    color:white;
+    color:red;
     font-size: 2.2rem;
     font-family: cursive;
     margin-inline: auto;
